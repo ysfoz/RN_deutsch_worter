@@ -1,0 +1,6 @@
+module Pods_deutsch_worter_deutsch_worterTests {
+  umbrella header "Pods-deutsch_worter-deutsch_worterTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
