@@ -16,15 +16,17 @@ import MainCard from "../components/MainCard";
 import MainHeader from "../components/MainHeader";
 
 const Main = (props) => {
-    onPressCard = (listName) => {
-       props.navigation.navigate('WordList')
+    onPressCard = ({item}) => {
+        console.log(item)
+    props.navigation.navigate('WordList',{ data:item})
+    
     }
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: "#01579b" }}>
       <MainHeader />
       <ScrollView>
         {AllFolder.map((e) => (
-          <MainCard name={e.name} isDone={e.isDone} onPressCard={() => onPressCard(e.name)}>
+          <MainCard name={e.name} isDone={e.isDone} onPressCard={() => onPressCard(e)}>
             {e.name}
           </MainCard>
         ))}

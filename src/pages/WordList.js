@@ -1,21 +1,41 @@
 import React from 'react';
-import { SafeAreaView, View, Text , ScrollView } from 'react-native'
+import { SafeAreaView, View, Text , FlatList} from 'react-native'
+
+// import { AllFolder } from "../helper/AllFolder";
+// import { Adjektive } from "../helper/Adjective";
+// import { AllTag } from "../helper/AllTag";
+// import { Nomen } from "../helper/Nomen";
+// import { StarkeVerben } from "../helper/StarkeVerben";
+import WordCard from '../components/WordCard'
 
 
-const Main = () => {
+const WordList = (props) => {
+    const data = props.route.params.data
+    console.log(data)
 
-const lsit = ['liste1','liste2','liste3','liste4']
+    function renderList({item}) {
+        return(
+        <WordCard 
+        verb= {item.verb} 
+        beispiel={item.beispiel} 
+        turkisch= {item.turkisch} 
+        perfect={item.perfect}/>
+        )        
+    }
+
     return(
         <SafeAreaView style={{flex:1}}>
-            <Text>ogrenilen Kelime:200</Text>
-                   <Text>mevcut kelime sayisi: 400</Text>
-                   <Text>kelime turlerine gore grafik koymayi dene</Text>
-             <ScrollView >
-        {lsit.map(e => <Text>{e}</Text>)}
-                   </ScrollView>
+            <FlatList
+            style={{flex:1}}
+            keyExtractor={(_,index) => index.toString() }
+            data = {data}
+            renderItem={ renderList}
+            />
             
         </SafeAreaView>
     )
 }
 
-export default Main;
+export default WordList;
+
+// ({item}) => console.log(item.verb)
