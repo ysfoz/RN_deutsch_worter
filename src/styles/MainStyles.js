@@ -51,7 +51,7 @@ const MainHeaderStyles= StyleSheet.create({
         fontSize:20,
         marginBottom:10,
         textAlign:'center',
-        color: '#e0e0e0',
+        color: 'white',
         fontWeight:'bold'
 
     }

@@ -6,7 +6,7 @@ import { MainCardStyles } from "../styles/MainStyles";
 
 const MainCard = (props) => {
   return (
-    <TouchableOpacity style={MainCardStyles.cardview}>
+    <TouchableOpacity style={MainCardStyles.cardview} onPress={props.onPressCard}>
       <Icon
         name="check"
         size={30}
