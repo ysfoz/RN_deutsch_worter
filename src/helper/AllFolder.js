@@ -13,6 +13,7 @@ export const AllFolder=[
         "Perfekt": "gebacken",
         "turkisch": "fırında pişirmek",
         "beispiel":"momentan sind alle beispiel satze gleich",
+        "beispieltur":"Bu cumleler suan icin ayni",
         "others":"man kan diese verb auch alltag sprache benutzen"
       },
       {
@@ -23,6 +24,7 @@ export const AllFolder=[
         "Perfekt": "gefahren",
         "turkisch": "araba sürmek",
         "beispiel":"momentan sind alle beispiel satze gleich",
+        "beispieltur":"Bu cumleler suan icin ayni",
         "others":"man kan diese verb auch alltag sprache benutzen"
       },
       {
@@ -33,6 +35,7 @@ export const AllFolder=[
         "Perfekt": "gegraben",
         "turkisch": "tünel açmak",
         "beispiel":"momentan sind alle beispiel satze gleich",
+        "beispieltur":"Bu cumleler suan icin ayni",
         "others":"man kan diese verb auch alltag sprache benutzen"
       },
       {
@@ -43,6 +46,7 @@ export const AllFolder=[
         "Perfekt": "geladen",
         "turkisch": "davet etmek",
         "beispiel":"momentan sind alle beispiel satze gleich",
+        "beispieltur":"Bu cumleler suan icin ayni",
         "others":"man kan diese verb auch alltag sprache benutzen"
       },
       {
@@ -53,6 +57,7 @@ export const AllFolder=[
         "Perfekt": "geschaffen",
         "turkisch": "başarmak",
         "beispiel":"momentan sind alle beispiel satze gleich",
+        "beispieltur":"Bu cumleler suan icin ayni",
         "others":"man kan diese verb auch alltag sprache benutzen"
       },
       {
@@ -63,6 +68,7 @@ export const AllFolder=[
         "Perfekt": "geschlagen",
         "turkisch": "vurmak",
         "beispiel":"momentan sind alle beispiel satze gleich",
+        "beispieltur":"Bu cumleler suan icin ayni",
         "others":"man kan diese verb auch alltag sprache benutzen"
       },
       {
@@ -73,6 +79,7 @@ export const AllFolder=[
         "Perfekt": "getragen",
         "turkisch": "taşımak",
         "beispiel":"momentan sind alle beispiel satze gleich",
+        "beispieltur":"Bu cumleler suan icin ayni",
         "others":"man kan diese verb auch alltag sprache benutzen"
       },
       {
@@ -83,6 +90,7 @@ export const AllFolder=[
         "Perfekt": "gewachsen",
         "turkisch": "büyümek",
         "beispiel":"momentan sind alle beispiel satze gleich",
+        "beispieltur":"Bu cumleler suan icin ayni",
         "others":"man kan diese verb auch alltag sprache benutzen"
       },
       {
@@ -93,6 +101,7 @@ export const AllFolder=[
         "Perfekt": "gewaschen",
         "turkisch": "yıkamak",
         "beispiel":"momentan sind alle beispiel satze gleich",
+        "beispieltur":"Bu cumleler suan icin ayni",
         "others":"man kan diese verb auch alltag sprache benutzen"
       },
       {
@@ -103,6 +112,7 @@ export const AllFolder=[
         "Perfekt": "geblasen",
         "turkisch": "esmek",
         "beispiel":"momentan sind alle beispiel satze gleich",
+        "beispieltur":"Bu cumleler suan icin ayni",
         "others":"man kan diese verb auch alltag sprache benutzen"
       },
       {
@@ -111,7 +121,10 @@ export const AllFolder=[
         "Präsens": "brät",
         "Präteritum": "briet",
         "Perfekt": "gebraten",
-        "turkisch": "kızartmak"
+        "turkisch": "kızartmak",
+        "beispiel":"momentan sind alle beispiel satze gleich",
+        "beispieltur":"Bu cumleler suan icin ayni",
+        "others":"man kan diese verb auch alltag sprache benutzen"
       },
       {
         "id": 12,
@@ -119,7 +132,10 @@ export const AllFolder=[
         "Präsens": "fällt",
         "Präteritum": "fiel",
         "Perfekt": "gefallen",
-        "turkisch": "düşmek"
+        "turkisch": "düşmek",
+        "beispiel":"momentan sind alle beispiel satze gleich",
+        "beispieltur":"Bu cumleler suan icin ayni",
+        "others":"man kan diese verb auch alltag sprache benutzen"
       },
       {
         "id": 13,
@@ -129,6 +145,7 @@ export const AllFolder=[
         "Perfekt": "gehalten",
         "turkisch": "tutmak",
         "beispiel":"momentan sind alle beispiel satze gleich",
+        "beispieltur":"Bu cumleler suan icin ayni",
         "others":"man kan diese verb auch alltag sprache benutzen"
       },
       {
@@ -139,6 +156,7 @@ export const AllFolder=[
         "Perfekt": "gelassen",
         "turkisch": "bırakmak",
         "beispiel":"momentan sind alle beispiel satze gleich",
+        "beispieltur":"Bu cumleler suan icin ayni",
         "others":"man kan diese verb auch alltag sprache benutzen"
       },
       {
@@ -149,6 +167,7 @@ export const AllFolder=[
         "Perfekt": "geraten",
         "turkisch": "tavsiye etmek",
         "beispiel":"momentan sind alle beispiel satze gleich",
+        "beispieltur":"Bu cumleler suan icin ayni",
         "others":"man kan diese verb auch alltag sprache benutzen"
       },
       {
@@ -159,6 +178,7 @@ export const AllFolder=[
         "Perfekt": "geschlafen",
         "turkisch": "uyumak",
         "beispiel":"momentan sind alle beispiel satze gleich",
+        "beispieltur":"Bu cumleler suan icin ayni",
         "others":"man kan diese verb auch alltag sprache benutzen"
       },
       {
@@ -169,6 +189,7 @@ export const AllFolder=[
         "Perfekt": "empfangen",
         "turkisch": "teslim almak-gebe kalmak",
         "beispiel":"momentan sind alle beispiel satze gleich",
+        "beispieltur":"Bu cumleler suan icin ayni",
         "others":"man kan diese verb auch alltag sprache benutzen"
       },
       {
@@ -179,6 +200,7 @@ export const AllFolder=[
         "Perfekt": "gefangen",
         "turkisch": "yakalamak-avlamak-tutmak",
         "beispiel":"momentan sind alle beispiel satze gleich",
+        "beispieltur":"Bu cumleler suan icin ayni",
         "others":"man kan diese verb auch alltag sprache benutzen"
       },
       {
@@ -189,6 +211,7 @@ export const AllFolder=[
         "Perfekt": "geschehen",
         "turkisch": "olmak-cereyan etmek",
         "beispiel":"momentan sind alle beispiel satze gleich",
+        "beispieltur":"Bu cumleler suan icin ayni",
         "others":"man kan diese verb auch alltag sprache benutzen"
       },
       {
@@ -199,6 +222,7 @@ export const AllFolder=[
         "Perfekt": "gelesen",
         "turkisch": "okumak",
         "beispiel":"momentan sind alle beispiel satze gleich",
+        "beispieltur":"Bu cumleler suan icin ayni",
         "others":"man kan diese verb auch alltag sprache benutzen"
       },
       {
@@ -229,6 +253,7 @@ export const AllFolder=[
         "Perfekt": "empfohlen",
         "turkisch": "tavsiye etmek",
         "beispiel":"momentan sind alle beispiel satze gleich",
+        "beispieltur":"Bu cumleler suan icin ayni",
         "others":"man kan diese verb auch alltag sprache benutzen"
       },
       {
@@ -249,6 +274,7 @@ export const AllFolder=[
         "Perfekt": "geboren",
         "turkisch": "doğurmak",
         "beispiel":"momentan sind alle beispiel satze gleich",
+        "beispieltur":"Bu cumleler suan icin ayni",
         "others":"man kan diese verb auch alltag sprache benutzen"
       },
       {
@@ -269,6 +295,7 @@ export const AllFolder=[
         "Perfekt": "gefressen",
         "turkisch": "hayvan/yemek",
         "beispiel":"momentan sind alle beispiel satze gleich",
+        "beispieltur":"Bu cumleler suan icin ayni",
         "others":"man kan diese verb auch alltag sprache benutzen"
       },
       {
@@ -289,6 +316,7 @@ export const AllFolder=[
         "Perfekt": "gegeben",
         "turkisch": "vermek",
         "beispiel":"momentan sind alle beispiel satze gleich",
+        "beispieltur":"Bu cumleler suan icin ayni",
         "others":"man kan diese verb auch alltag sprache benutzen"
       },
       {
@@ -299,6 +327,7 @@ export const AllFolder=[
         "Perfekt": "gemessen",
         "turkisch": "ölçmek",
         "beispiel":"momentan sind alle beispiel satze gleich",
+        "beispieltur":"Bu cumleler suan icin ayni",
         "others":"man kan diese verb auch alltag sprache benutzen"
       }
 ]

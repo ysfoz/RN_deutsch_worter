@@ -22,11 +22,11 @@ const Main = (props) => {
     
     }
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: "#01579b" }}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: "#90a4ae" }}>
       <MainHeader />
       <ScrollView>
         {AllFolder.map((e) => (
-          <MainCard name={e.name} isDone={e.isDone} onPressCard={() => onPressCard(e)}>
+          <MainCard key = {e.id} name={e.name} isDone={e.isDone} onPressCard={() => onPressCard(e)}>
             {e.name}
           </MainCard>
         ))}

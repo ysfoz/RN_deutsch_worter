@@ -17,19 +17,27 @@ const WordList = (props) => {
         return(
         <WordCard 
         verb= {item.verb} 
-        beispiel={item.beispiel} 
         turkisch= {item.turkisch} 
-        perfect={item.perfect}/>
+        perfect={item.Perfekt}
+        prasens={item.Präsens}
+        prateritum={item.Präteritum}
+        beispiel={item.beispiel} 
+        beispieltur={item.beispieltur}
+        others = {item.others} 
+        
+        />
         )        
     }
-
+  
     return(
-        <SafeAreaView style={{flex:1}}>
+        <SafeAreaView style={{flex:1,backgroundColor:'#37474f'}}>
             <FlatList
+            horizontal
             style={{flex:1}}
             keyExtractor={(_,index) => index.toString() }
             data = {data}
             renderItem={ renderList}
+            showsHorizontalScrollIndicator={false}
             />
             
         </SafeAreaView>
