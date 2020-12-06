@@ -1,13 +1,13 @@
 import React from 'react';
 import { SafeAreaView, View,Text } from 'react-native'
 
+import SoundRecorder from '../components/SoundRecorder'
+
 const AllWords = () => {
     return(
         <SafeAreaView>
             <View>
-                <Text>
-                    AllWords
-                </Text>
+                <SoundRecorder/>
             </View>
         </SafeAreaView>
     )
