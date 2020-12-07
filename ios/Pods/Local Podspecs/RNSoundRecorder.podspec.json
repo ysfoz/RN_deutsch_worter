@@ -1,0 +1,27 @@
+{
+  "name": "RNSoundRecorder",
+  "version": "1.5.0",
+  "summary": "Simplest Sound Recorder for React Native",
+  "description": "Simplest Sound Recorder for React Native",
+  "license": "",
+  "authors": "",
+  "homepage": "https://github.com/kevinresol/react-native-sound-recorder#readme",
+  "source": {
+    "git": "https://github.com/kevinresol/react-native-sound-recorder.git"
+  },
+  "requires_arc": true,
+  "platforms": {
+    "ios": "7.0"
+  },
+  "preserve_paths": [
+    "README.md",
+    "package.json",
+    "index.js"
+  ],
+  "source_files": "iOS/*.{h,m}",
+  "dependencies": {
+    "React": [
+
+    ]
+  }
+}

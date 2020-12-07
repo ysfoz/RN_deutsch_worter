@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1052758FB5F8BFF4E79EE045DBCC3F0E"
-               BuildableName = "libRNAudioRecorderPlayer.a"
-               BlueprintName = "RNAudioRecorderPlayer"
+               BlueprintIdentifier = "5CCB99E63FCEF3B56DC0BD71DFEC4618"
+               BuildableName = "libRNSound.a"
+               BlueprintName = "RNSound"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

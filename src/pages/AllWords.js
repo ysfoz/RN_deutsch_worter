@@ -1,16 +1,26 @@
-import React from 'react';
-import { SafeAreaView, View,Text } from 'react-native'
 
-import SoundRecorder from '../components/SoundRecorder'
+import React from 'react';
+import { SafeAreaView, View,Text, Button } from 'react-native'
+
+
 
 const AllWords = () => {
+   
+  
+    
+
     return(
         <SafeAreaView>
             <View>
-                <SoundRecorder/>
+               <Button title= 'record'/>
             </View>
         </SafeAreaView>
     )
 }
 
 export default AllWords;
+
+
+
+
+
