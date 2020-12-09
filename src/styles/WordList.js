@@ -15,10 +15,11 @@ export const WordListstyles = StyleSheet.create({
     },
     container:{
         marginTop:20,
-        height:Dimensions.get('screen').height * 0.5,
-        width:Dimensions.get('screen').width * 0.8,
-        backgroundColor:'#b2ebf2',
-        borderWidth:2,
+        maxHeight:Dimensions.get('screen').height * 0.8,
+        minHeight:Dimensions.get('screen').height * 0.5,
+        width:Dimensions.get('screen').width * 0.9,
+        backgroundColor:'#e9f3fb',
+        borderWidth:1,
         borderRadius:10,
         marginLeft:50,
     },
@@ -31,7 +32,7 @@ export const WordListstyles = StyleSheet.create({
     text:{
         marginBottom:3,
         fontSize:20,
-        marginHorizontal:5
+        marginHorizontal:8
 
     },
     bottomcontainer:{
@@ -39,9 +40,10 @@ export const WordListstyles = StyleSheet.create({
     },
     backpage:{
         marginTop:20,
-        height:Dimensions.get('screen').height * 0.5,
-        width:Dimensions.get('screen').width * 0.8,
-        backgroundColor:'#b2ebf2',
+        maxHeight:Dimensions.get('screen').height * 0.8,
+        minHeight:Dimensions.get('screen').height * 0.5,
+        width:Dimensions.get('screen').width * 0.9,
+        backgroundColor:'#e9f3fb',
         borderWidth:2,
         borderRadius:10,
         marginLeft:50,

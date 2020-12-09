@@ -14,7 +14,7 @@ const Tab = createBottomTabNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-      <Tab.Navigator style={{backgroundColor:'red'}}>
+      <Tab.Navigator>
         <Tab.Screen 
         name="Home" 
         component={Main} 
@@ -22,7 +22,7 @@ export default function App() {
         options={{
             title:'',
             tabBarIcon:({color,size}) => (
-                <Icon name = 'home' color = '#80cbc4' size={30}/>
+                <Icon name = 'home' color = '#546e7a' size={30}/>
             ),
         }
     }
@@ -34,7 +34,7 @@ export default function App() {
         options={{
             title:'',
             tabBarIcon:({color,size}) => (
-                <Icon name = 'align-justify' color = '#4fc3f7' size={30}/>
+                <Icon name = 'align-justify' color = '#546e7a' size={30}/>
             ),
         }
     }
@@ -45,7 +45,7 @@ export default function App() {
         options={{
             title:'',
             tabBarIcon:({color,size}) => (
-                <Icon name = 'gears' color = '#80deea' size={30}  />
+                <Icon name = 'gears' color = '#546e7a' size={30}  />
             ),
         }
     }

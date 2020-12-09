@@ -30,7 +30,7 @@ const WordList = (props) => {
     }
   
     return(
-        <SafeAreaView style={{flex:1,backgroundColor:'#37474f'}}>
+        <SafeAreaView style={{flex:1,backgroundColor:'#024f94'}}>
             <FlatList
             horizontal
             style={{flex:1}}

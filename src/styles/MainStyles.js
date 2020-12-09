@@ -9,7 +9,7 @@ const MainCardStyles = StyleSheet.create({
        justifyContent:'space-between',
        flexDirection:'row',
        width:Dimensions.get('screen').width * 0.9,
-       backgroundColor:'#e2f1f8',
+       backgroundColor:'#e9f3fb',
        marginTop:10,
        padding:15,
        borderRadius:10,

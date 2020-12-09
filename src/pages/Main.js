@@ -22,7 +22,7 @@ const Main = (props) => {
     
     }
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: "#90a4ae" }}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: "#024f94" }}>
       <MainHeader />
       <ScrollView>
         {AllFolder.map((e) => (
