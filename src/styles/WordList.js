@@ -47,6 +47,17 @@ export const WordListstyles = StyleSheet.create({
         borderWidth:2,
         borderRadius:10,
         marginLeft:50,
+    },
+    buttonsContainer:{
+        flexDirection:'row',
+        backgroundColor:'white',
+        width:Dimensions.get('screen').width * 0.6,
+        borderRadius:10,
+        alignSelf:'center',
+        alignItems:'center',
+        justifyContent:"space-between",
+        paddingHorizontal:10
+
     }
 
 

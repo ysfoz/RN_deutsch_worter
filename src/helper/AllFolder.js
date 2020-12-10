@@ -7,7 +7,7 @@ export const AllFolder=[
     item : [
         {
         "id": 1,
-        "verb": "backen-starke",
+        "verb": "backen-starkesdffsdfsdfsdfsdfsdfsdfsdfsf",
         "Präsens": "bäckt",
         "Präteritum": "buk",
         "Perfekt": "gebacken",

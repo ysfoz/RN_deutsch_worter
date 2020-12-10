@@ -14,6 +14,7 @@ import { Nomen } from "../helper/Nomen";
 import { StarkeVerben } from "../helper/StarkeVerben";
 import MainCard from "../components/MainCard";
 import MainHeader from "../components/MainHeader";
+import MainAddList from '../components/MainAddList'
 
 const Main = (props) => {
     onPressCard = ({item}) => {
@@ -24,6 +25,7 @@ const Main = (props) => {
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: "#024f94" }}>
       <MainHeader />
+      <MainAddList/>
       <ScrollView>
         {AllFolder.map((e) => (
           <MainCard key = {e.id} name={e.name} isDone={e.isDone} onPressCard={() => onPressCard(e)}>

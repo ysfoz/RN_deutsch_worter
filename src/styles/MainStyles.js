@@ -58,4 +58,20 @@ const MainHeaderStyles= StyleSheet.create({
 
 })
 
-export {MainCardStyles,MainHeaderStyles} 
+const MainAddListStyles= StyleSheet.create({
+    container:{
+        backgroundColor:'crimson',
+        width:Dimensions.get('screen').width * 0.9,
+        alignSelf:'center',
+        borderRadius:10,
+        alignItems:'center',
+        padding:5,
+    },
+    text:{
+        color:'white',
+        fontWeight:'bold',
+        fontSize:20
+    }
+})
+
+export {MainCardStyles,MainHeaderStyles,MainAddListStyles} 

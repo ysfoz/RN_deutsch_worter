@@ -19,14 +19,37 @@ export default function WordCard({
     <FlipCard>
       <View style={WordListstyles.container}>
         <View style={WordListstyles.headercontainer}>
-          <Text style={WordListstyles.verb}>{verb}</Text>
-          <Icon
+          <Text style={[WordListstyles.verb,{fontSize:{verb}.Lenght > 20 ? 10: null}]}>{verb}</Text>
+          
+        </View>
+        <View style={WordListstyles.buttonsContainer}>
+        <Icon
             name="plus"
             size={30}
             color="crimson"
-            style={{ position: "absolute", right: 10, bottom: 5 }}
             // TODO: onPress={props.addComment} props olmaz parcalayip alacaz  ana sayfada  modal olarak input acilacak, bir tarafinda baslik bir tarafinda yorum olacak
           />
+           <Icon
+          name="volume-up"
+          size={30}
+          color="crimson"
+          onPress={() => console.log("denem")}
+         
+        />
+         <Icon
+          name="pause"
+          size={30}
+          color="crimson"
+          onPress={() => console.log("denem")}
+          
+        />
+           <Icon
+          name="play"
+          size={30}
+          color="crimson"
+          onPress={() => console.log("denem")}
+          
+        />
         </View>
         <View style={WordListstyles.verbscontainer}>
           <Text style={WordListstyles.text}>{prasens}</Text>
@@ -49,7 +72,7 @@ export default function WordCard({
             }}
           />
         </View>
-        <Icon
+        {/* <Icon
           name="volume-up"
           size={50}
           color="crimson"
@@ -62,7 +85,7 @@ export default function WordCard({
           color="gray"
           onPress={() => console.log("denem")}
           style={{ position: "absolute", bottom: 45, left: 10 }}
-        />
+        /> */}
       </View>
 
       <View style={WordListstyles.backpage}>
