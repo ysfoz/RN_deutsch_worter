@@ -27,8 +27,8 @@ const Main = (props) => {
       <MainHeader />
       <MainAddList/>
       <ScrollView>
-        {AllFolder.map((e) => (
-          <MainCard key = {e.id} name={e.name} isDone={e.isDone} onPressCard={() => onPressCard(e)}>
+        {AllFolder.map((e,index) => (
+          <MainCard key = {index} name={e.name} isDone={e.isDone} onPressCard={() => onPressCard(e)}>
             {e.name}
           </MainCard>
         ))}

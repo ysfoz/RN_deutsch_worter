@@ -19,7 +19,7 @@ export default function WordCard({
     <FlipCard>
       <View style={WordListstyles.container}>
         <View style={WordListstyles.headercontainer}>
-          <Text style={[WordListstyles.verb,{fontSize:{verb}.Lenght > 20 ? 10: null}]}>{verb}</Text>
+          <Text style={WordListstyles.verb}>{verb}</Text>
           
         </View>
         <View style={WordListstyles.buttonsContainer}>

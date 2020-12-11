@@ -11,10 +11,12 @@ import com.facebook.react.shell.MainReactPackage;
 import java.util.Arrays;
 import java.util.ArrayList;
 
+// @react-native-community/audio-toolkit
+import com.reactnativecommunity.rctaudiotoolkit.AudioPackage;
 // @react-native-community/masked-view
 import org.reactnative.maskedview.RNCMaskedViewPackage;
-// react-native-audio
-import com.rnim.rn.audio.ReactNativeAudioPackage;
+// @react-native-community/slider
+import com.reactnativecommunity.slider.ReactSliderPackage;
 // react-native-gesture-handler
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 // react-native-reanimated
@@ -23,10 +25,6 @@ import com.swmansion.reanimated.ReanimatedPackage;
 import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
 // react-native-screens
 import com.swmansion.rnscreens.RNScreensPackage;
-// react-native-sound
-import com.zmxv.RNSound.RNSoundPackage;
-// react-native-sound-recorder
-import com.kevinresol.react_native_sound_recorder.RNSoundRecorderPackage;
 // react-native-vector-icons
 import com.oblador.vectoricons.VectorIconsPackage;
 
@@ -74,14 +72,13 @@ public class PackageList {
   public ArrayList<ReactPackage> getPackages() {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
+      new AudioPackage(),
       new RNCMaskedViewPackage(),
-      new ReactNativeAudioPackage(),
+      new ReactSliderPackage(),
       new RNGestureHandlerPackage(),
       new ReanimatedPackage(),
       new SafeAreaContextPackage(),
       new RNScreensPackage(),
-      new RNSoundPackage(),
-      new RNSoundRecorderPackage(),
       new VectorIconsPackage()
     ));
   }

@@ -1,25 +1,25 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:1:1-27:12
-MERGED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:1:1-27:12
+ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:1:1-41:12
+MERGED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:1:1-41:12
 MERGED from [com.facebook.flipper:flipper:0.54.0] /Users/ysf/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:8:1-18:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /Users/ysf/.gradle/caches/transforms-2/files-2.1/bd2cab46fd45b530a274001375333ead/flipper-network-plugin-0.54.0/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /Users/ysf/.gradle/caches/transforms-2/files-2.1/dd7dfafbb0af41b4347f18654ea5c436/flipper-fresco-plugin-0.54.0/AndroidManifest.xml:8:1-15:12
+MERGED from [:@react-native-community_audio-toolkit] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/node_modules/@react-native-community/audio-toolkit/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_audio-toolkit] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/node_modules/@react-native-community/audio-toolkit/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-community_masked-view] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-audio] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/node_modules/react-native-audio/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-community_slider] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/node_modules/@react-native-community/slider/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-gesture-handler] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-reanimated] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-safe-area-context] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-sound-recorder] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/node_modules/react-native-sound-recorder/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-vector-icons] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.63.3] /Users/ysf/.gradle/caches/transforms-2/files-2.1/bf400656cf2a82b596b20b0521c2031d/jetified-react-native-0.63.3/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ysf/.gradle/caches/transforms-2/files-2.1/37b6f551bc5ae153b0b627de8f563815/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [org.webkit:android-jsc:r245459] /Users/ysf/.gradle/caches/transforms-2/files-2.1/6dd6245206e34676e1ee3aa6ee0f68c9/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-sound] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/node_modules/react-native-sound/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-12:12
 MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/ysf/.gradle/caches/transforms-2/files-2.1/40741ffe3de6a11d99116b4e82d60d46/flipper-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:stetho:2.2.0] /Users/ysf/.gradle/caches/transforms-2/files-2.1/03aa51752e7d7098a02114b07907dabd/stetho-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:fresco:2.2.0] /Users/ysf/.gradle/caches/transforms-2/files-2.1/e9f56679cbe795a6f7c93e9a035f66f2/fresco-2.2.0/AndroidManifest.xml:2:1-9:12
@@ -74,13 +74,13 @@ INJECTED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deu
 		INJECTED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:1:1-27:12
+		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:1:1-41:12
 		INJECTED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/debug/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/debug/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:1:1-27:12
+		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:1:1-41:12
 		INJECTED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:1:11-69
@@ -90,10 +90,26 @@ MERGED from [com.facebook.flipper:flipper:0.54.0] /Users/ysf/.gradle/caches/tran
 MERGED from [com.facebook.flipper:flipper:0.54.0] /Users/ysf/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:15:5-67
 	android:name
 		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:11:22-76
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:14:5-71
+	android:name
+		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:14:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:18:22-78
 application
-ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:6:5-25:19
-MERGED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:6:5-25:19
-MERGED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:6:5-25:19
+ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:20:5-39:19
+MERGED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:20:5-39:19
+MERGED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:20:5-39:19
 MERGED from [com.facebook.react:react-native:0.63.3] /Users/ysf/.gradle/caches/transforms-2/files-2.1/bf400656cf2a82b596b20b0521c2031d/jetified-react-native-0.63.3/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.63.3] /Users/ysf/.gradle/caches/transforms-2/files-2.1/bf400656cf2a82b596b20b0521c2031d/jetified-react-native-0.63.3/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/ysf/.gradle/caches/transforms-2/files-2.1/c34148f30cbc3e974eff21cbfb6a112a/soloader-0.9.0/AndroidManifest.xml:11:5-20
@@ -107,55 +123,55 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ysf/
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] /Users/ysf/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:8:7-39
-		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:8:7-39
+		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:22:7-39
+		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:22:7-39
 	tools:ignore
 		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/debug/AndroidManifest.xml:7:75-114
 	android:roundIcon
-		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:10:7-52
-		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:10:7-52
+		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:24:7-52
+		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:24:7-52
 	tools:targetApi
 		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/debug/AndroidManifest.xml:7:54-74
 	android:icon
-		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:9:7-41
-		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:9:7-41
+		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:23:7-41
+		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:23:7-41
 	android:allowBackup
-		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:11:7-34
-		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:25:7-34
+		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:25:7-34
 	android:theme
-		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:12:7-38
-		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:26:7-38
+		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:26:7-38
 	android:usesCleartextTraffic
 		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/debug/AndroidManifest.xml:7:18-53
 	android:name
-		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:7:7-38
-		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:7:7-38
+		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:21:7-38
+		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:21:7-38
 activity#com.deutsch_worter.MainActivity
-ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:13:7-23:18
+ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:27:7-37:18
 	android:label
-		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:15:9-41
+		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:29:9-41
 	android:launchMode
-		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:17:9-40
+		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:31:9-40
 	android:windowSoftInputMode
-		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:18:9-51
+		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:32:9-51
 	android:configChanges
-		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:16:9-86
+		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:30:9-86
 	android:name
-		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:14:9-37
+		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:28:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:19:9-22:25
+ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:33:9-36:25
 action#android.intent.action.MAIN
-ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:20:13-65
+ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:34:13-65
 	android:name
-		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:20:21-62
+		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:34:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:21:13-73
+ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:35:13-73
 	android:name
-		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:21:23-70
+		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:35:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:24:7-84
+ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:38:7-84
 	android:name
-		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:24:17-81
+		ADDED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:38:17-81
 uses-sdk
 INJECTED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml
@@ -166,10 +182,14 @@ MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /Users/ysf/.gra
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /Users/ysf/.gradle/caches/transforms-2/files-2.1/bd2cab46fd45b530a274001375333ead/flipper-network-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /Users/ysf/.gradle/caches/transforms-2/files-2.1/dd7dfafbb0af41b4347f18654ea5c436/flipper-fresco-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /Users/ysf/.gradle/caches/transforms-2/files-2.1/dd7dfafbb0af41b4347f18654ea5c436/flipper-fresco-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [:@react-native-community_audio-toolkit] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/node_modules/@react-native-community/audio-toolkit/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:@react-native-community_audio-toolkit] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/node_modules/@react-native-community/audio-toolkit/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_audio-toolkit] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/node_modules/@react-native-community/audio-toolkit/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_audio-toolkit] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/node_modules/@react-native-community/audio-toolkit/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_masked-view] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_masked-view] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-audio] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/node_modules/react-native-audio/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-audio] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/node_modules/react-native-audio/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_slider] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/node_modules/@react-native-community/slider/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_slider] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/node_modules/@react-native-community/slider/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-gesture-handler] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-gesture-handler] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-reanimated] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
@@ -178,8 +198,6 @@ MERGED from [:react-native-safe-area-context] /Users/ysf/Desktop/GITHUB/Assignme
 MERGED from [:react-native-safe-area-context] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-screens] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-sound-recorder] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/node_modules/react-native-sound-recorder/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-sound-recorder] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/node_modules/react-native-sound-recorder/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.63.3] /Users/ysf/.gradle/caches/transforms-2/files-2.1/bf400656cf2a82b596b20b0521c2031d/jetified-react-native-0.63.3/AndroidManifest.xml:7:5-9:41
@@ -188,8 +206,6 @@ MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ysf/.g
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ysf/.gradle/caches/transforms-2/files-2.1/37b6f551bc5ae153b0b627de8f563815/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [org.webkit:android-jsc:r245459] /Users/ysf/.gradle/caches/transforms-2/files-2.1/6dd6245206e34676e1ee3aa6ee0f68c9/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r245459] /Users/ysf/.gradle/caches/transforms-2/files-2.1/6dd6245206e34676e1ee3aa6ee0f68c9/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-sound] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/node_modules/react-native-sound/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
-MERGED from [:react-native-sound] /Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/node_modules/react-native-sound/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
 MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/ysf/.gradle/caches/transforms-2/files-2.1/40741ffe3de6a11d99116b4e82d60d46/flipper-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/ysf/.gradle/caches/transforms-2/files-2.1/40741ffe3de6a11d99116b4e82d60d46/flipper-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:stetho:2.2.0] /Users/ysf/.gradle/caches/transforms-2/files-2.1/03aa51752e7d7098a02114b07907dabd/stetho-2.2.0/AndroidManifest.xml:5:5-7:41

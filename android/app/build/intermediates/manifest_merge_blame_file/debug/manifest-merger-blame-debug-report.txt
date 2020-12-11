@@ -5,7 +5,7 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="16"
+8        android:minSdkVersion="19"
 9        android:targetSdkVersion="29" />
 10
 11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
@@ -14,55 +14,78 @@
 12    <uses-permission android:name="android.permission.INTERNET" />
 12-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:4:5-67
 12-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:4:22-64
-13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-13-->[com.facebook.flipper:flipper:0.54.0] /Users/ysf/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:5-76
-13-->[com.facebook.flipper:flipper:0.54.0] /Users/ysf/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:22-73
-14
-15    <application
-15-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:6:5-25:19
-16        android:name="com.deutsch_worter.MainApplication"
-16-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:7:7-38
-17        android:allowBackup="false"
-17-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:11:7-34
-18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.1.0] /Users/ysf/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:18-86
-19        android:debuggable="true"
-20        android:icon="@mipmap/ic_launcher"
-20-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:9:7-41
-21        android:label="@string/app_name"
-21-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:8:7-39
-22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:10:7-52
-23        android:theme="@style/AppTheme"
-23-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:12:7-38
-24        android:usesCleartextTraffic="true" >
-24-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/debug/AndroidManifest.xml:7:18-53
-25        <activity
-25-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:13:7-23:18
-26            android:name="com.deutsch_worter.MainActivity"
-26-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:14:9-37
-27            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-27-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:16:9-86
-28            android:label="@string/app_name"
-28-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:15:9-41
-29            android:launchMode="singleTask"
-29-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:17:9-40
-30            android:windowSoftInputMode="adjustResize" >
-30-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:18:9-51
-31            <intent-filter>
-31-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:19:9-22:25
-32                <action android:name="android.intent.action.MAIN" />
-32-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:20:13-65
-32-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:20:21-62
-33
-34                <category android:name="android.intent.category.LAUNCHER" />
-34-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:21:13-73
-34-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:21:23-70
-35            </intent-filter>
-36        </activity>
-37        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-37-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:24:7-84
-37-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:24:17-81
-38    </application>
-39
-40</manifest>
+13    <!--
+14 If you want to play audio from a SD card (i.e. external storage),
+15         you need to add this permission
+16    -->
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- If you want to play audio from a URL, you need to add these permissions -->
+17-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:7:5-80
+17-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:7:22-77
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:4:5-67
+18-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:4:22-64
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- If you want to record audio, you need to add this permission -->
+19-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:11:5-79
+19-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:11:22-76
+20    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+20-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:14:5-71
+20-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:14:22-68
+21    <!--
+22 If you want to record audio to a SD card (i.e. external storage),
+23         you need to add this permission
+24    -->
+25    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+25-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:18:5-81
+25-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:18:22-78
+26    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+26-->[com.facebook.flipper:flipper:0.54.0] /Users/ysf/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:5-76
+26-->[com.facebook.flipper:flipper:0.54.0] /Users/ysf/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:22-73
+27
+28    <application
+28-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:20:5-39:19
+29        android:name="com.deutsch_worter.MainApplication"
+29-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:21:7-38
+30        android:allowBackup="false"
+30-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:25:7-34
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.1.0] /Users/ysf/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:23:7-41
+34        android:label="@string/app_name"
+34-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:22:7-39
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:24:7-52
+36        android:theme="@style/AppTheme"
+36-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:26:7-38
+37        android:usesCleartextTraffic="true" >
+37-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/debug/AndroidManifest.xml:7:18-53
+38        <activity
+38-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:27:7-37:18
+39            android:name="com.deutsch_worter.MainActivity"
+39-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:28:9-37
+40            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+40-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:30:9-86
+41            android:label="@string/app_name"
+41-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:29:9-41
+42            android:launchMode="singleTask"
+42-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:31:9-40
+43            android:windowSoftInputMode="adjustResize" >
+43-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:32:9-51
+44            <intent-filter>
+44-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:33:9-36:25
+45                <action android:name="android.intent.action.MAIN" />
+45-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:34:13-65
+45-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:34:21-62
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:35:13-73
+47-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:35:23-70
+48            </intent-filter>
+49        </activity>
+50        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+50-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:38:7-84
+50-->/Users/ysf/Desktop/GITHUB/Assignments/react-native/projects/RN_deutsch_worter/android/app/src/main/AndroidManifest.xml:38:17-81
+51    </application>
+52
+53</manifest>

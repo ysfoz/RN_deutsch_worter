@@ -1,1 +1,0 @@
-../../../../../node_modules/react-native-sound-recorder/ios/RNSoundRecorder.h
